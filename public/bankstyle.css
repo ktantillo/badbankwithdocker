@@ -1,0 +1,27 @@
+body {
+    background-image:url('BBbackground.png');
+    background-size: cover;
+}
+
+/* .nav-item a p::after {
+    content: "";
+    position: absolute;
+    top: -25%;
+    left: 10%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+} */
+
+
+.nav-item a:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.nav-link:focus {
+    background-color: grey;
+    color: #fff;
+}
